@@ -1,0 +1,238 @@
+#myModal {
+  display: none; /* Menambahkan display:none; */
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding-top: 120px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#modalContent {
+  background-color: #fefefe;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  width: 60%;
+}
+
+#closeModalIcon {
+  color: #aaaaaa;
+  float: right;
+}
+
+#closeModalIcon:hover,
+#closeModalIcon:focus {
+  color: #000;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navbar css */
+
+.nav-link:hover {
+  color: white;
+  text-shadow: 0.5px 0px #ffffff;
+  transition: all 0.2s;
+}
+
+.nav-link {
+  color: rgb(208, 207, 207);
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.sticky-nav {
+  display: none;
+}
+
+/* Jumbotron atau Hero css */
+
+.jumbotron {
+  height: 30rem;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: whitesmoke;
+  background-image: url(assets/images/Coffe\ Header.png);
+  box-shadow: inset 0 0 0 2000px rgba(20, 54, 66, 0.8);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.jumbotron h1 {
+  width: 25%;
+  padding-top: 8%;
+  margin: 0 auto;
+}
+
+.jumbotron p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Content */
+
+.content-wrapper {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
+.content-wrapper2 {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
+.image-wrapper-end img {
+  display: flex;
+  flex: auto;
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 180px;
+  border-radius: 20px;
+  object-fit: contain;
+  justify-content: right;
+}
+
+.image-wrapper3 img {
+  display: flex;
+  flex: auto;
+  margin-top: 60px;
+  margin-bottom: 10px;
+  margin-right: 180px;
+  margin-left: 0px;
+  border-radius: 20px;
+  object-fit: contain;
+  justify-content: start;
+}
+
+.image-wrapper img {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.content-text {
+  margin-top: 80px;
+  margin-left: 0 auto;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.content-text h2 {
+  font-weight: 600;
+  border-bottom: 3px solid #dd932b;
+  color: rgba(16, 139, 141, 255);
+}
+
+.content-text-mid h2 {
+  padding-top: 25%;
+  font-weight: 600;
+  border-bottom: 3px solid #dd932b;
+  color: rgba(16, 139, 141, 255);
+}
+.content-text p {
+  padding-top: 10px;
+}
+
+.btn-home {
+  color: white;
+  background-color: rgba(168, 32, 26, 255);
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  line-height: normal;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/** Section Instagram **/
+
+.content-instagram {
+  margin-top: 120px;
+}
+
+.content-instagram h2 {
+  font-weight: 600;
+  color: rgba(16, 139, 141, 255);
+  text-align: center;
+}
+
+.content-instagram span {
+  font-weight: 600;
+  color: #dd932b;
+  border-bottom: solid 1px #dd932b;
+  cursor: pointer;
+}
+
+.content-instagram img {
+  margin-top: 40px;
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 10px;
+}
+
+.content-ask-us {
+  margin-top: 100px;
+}
+
+.content-ask-us h2 {
+  font-weight: 600;
+  color: rgba(16, 139, 141, 255);
+  text-align: center;
+}
+
+.content-ask-us p {
+  text-align: center;
+}
+
+.content-ask-us div {
+  margin: 0 auto;
+}
+
+footer {
+  opacity: 90%;
+  margin-top: 80px;
+  height: 250px;
+  background-color: #143642;
+}
+
+.footer-logo img {
+  margin: 50px;
+  float: left;
+}
+
+.footer-menu {
+  margin-left: 500px;
+}
+
+.footer-menu:hover {
+  cursor: pointer;
+}
+
+.footer-menu ul {
+  margin-top: 50px;
+  margin-left: 20px;
+  color: #dd932b;
+  float: left;
+}
+
+.footer-menu li {
+  color: rgba(243, 243, 243, 0.9);
+}
